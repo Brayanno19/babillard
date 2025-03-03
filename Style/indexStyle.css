@@ -1,4 +1,91 @@
 body
 {
-    background-color: aqua;
+ background: url("../resource/img/013.jpg");
+} 
+
+header 
+{
+    display: flex;
+    background-color: rgba(255, 166, 0, 0.884);
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    text-align: justify;
+}
+
+
+
+#ma_box
+{
+    display: flex;
+    content: " ";
+    width: 100%;
+    height: 700px;
+    background-color: aliceblue;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+  
+nav ul li {
+   margin-left: 20px;
+   cursor: pointer;
+}
+ 
+.content {
+   display: flex;
+   width: 100%;
+   margin: 20px;
+   height: 100%;
+
+}
+  
+.sidebar {
+  background-color: #f0f0f09e;
+  padding: 10px;
+  width: 200px;
+  height: 80%;
+  margin-right: 20px;
+}
+#typeInfo
+{
+  display: flex;
+}
+#typeInfo button
+{
+   margin-left: 5px;
+}
+  
+.articles {
+  flex: 1;
+  display: flex;
+}
+button
+{
+  background-color: rgb(255, 255, 188);
+}
+  
+article {
+  background-color: #e0e0e0;
+  margin-right: 10px;
+  padding: 20px;
+  flex: 1;
+}
+ footer
+{
+      display: flex;
+      background-color: rgba(255, 166, 0, 0.884);
+      height: 100px;
+      width: 100%;
+      justify-content: center;
+}
+#pdfViewer
+{
+    width: 100%;
+    height: 90%;
 }
